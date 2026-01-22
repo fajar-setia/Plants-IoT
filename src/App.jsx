@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
 import Plants from "./pages/Plants.jsx";
@@ -11,7 +11,7 @@ import Settings from "./pages/Settings.jsx";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="flex">
         <Navbar />
         
@@ -29,7 +29,7 @@ function App() {
           </Routes>
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
