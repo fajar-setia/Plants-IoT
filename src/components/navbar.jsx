@@ -63,9 +63,9 @@ export default function Navbar() {
 
             <div>
               <h2 className="text-xl font-bold bg-linear-to-r from-teal-400 to-cyan-400 bg-clip-text text-transparent">
-                PlantIoT
+                HP
               </h2>
-              <p className="text-xs text-slate-400">Smart Garden</p>
+              <p className="text-xs text-slate-400">Healthy Plant</p>
             </div>
           </div>
 
